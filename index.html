@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícia Escolar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header class="cabecalho">
+    <h1 id="nome-colegio">Nome do Colégio</h1>
+    <p id="nome-disciplina">Disciplina: Desenvolvimento Web</p>
+  </header>
+
+  <main class="conteudo-principal">
+    <article class="noticia">
+      <!-- Título: 78 caracteres -->
+      <h2 class="titulo-noticia">Grave acidente em rodovia mobiliza equipes de resgate e deixa vítima fatal</h2>
+      
+      <!-- Subtítulo: 93 caracteres -->
+      <h3 class="subtitulo-noticia">Colisão entre dois veículos no início da manhã bloqueia o trânsito e gera alerta nas estradas.</h3>
+
+      <div class="metadados">
+        <span class="autor">Por: Seu Nome Completo</span>
+        <span class="data">Data de Publicação: <span id="data-publicacao"></span></span>
+      </div>
+
+      <figure class="container-imagem">
+        <img src="https://via.placeholder.com/800x400" alt="Imagem ilustrativa do local do acidente" class="imagem-noticia">
+        <figcaption>Equipes de resgate atuam no local da ocorrência para prestar atendimento.</figcaption>
+      </figure>
+
+      <!-- Corpo: 512 caracteres -->
+      <div class="corpo-noticia">
+        <p>Um grave acidente registrado no início da manhã desta quinta-feira resultou na morte de uma pessoa e provocou fortes interdições no trânsito local. A colisão ocorreu em um trecho de grande movimentação e mobilizou diversas equipes de resgate, bombeiros e autoridades de trânsito, que foram acionadas rapidamente para prestar os primeiros socorros e sinalizar a pista.</p>
+        <p>As causas da colisão ainda estão sendo apuradas pela perícia técnica. O tráfego permaneceu lento por várias horas, e os motoristas que passavam pela região foram orientados a buscar rotas alternativas enquanto os veículos eram removidos da via.</p>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
